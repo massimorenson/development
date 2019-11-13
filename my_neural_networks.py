@@ -73,13 +73,13 @@ if __name__ == "__main__":
     # Train the neural network
     neural_network.train(training_inputs, training_outputs, 100000)
 
-    print("Synaptic weights after training: ")
-    print(neural_network.synaptic_weights)
+    #print("Synaptic weights after training: ")
+    #print(neural_network.synaptic_weights)
 
-    A = str(input("Input 1: "))
-    B = str(input("Input 2: "))
-    C = str(input("Input 3: "))
+    #A = str(input("Input 1: "))
+    #B = str(input("Input 2: "))
+    #C = str(input("Input 3: "))
     
-    print("New situation: input data = ", A, B, C)
-    print("Output data: ")
-    print(neural_network.think(np.array([A, B, C])))
+    #print("New situation: input data = ", A, B, C)
+    #print("Output data: ")
+    #print(neural_network.think(np.array([A, B, C])))
