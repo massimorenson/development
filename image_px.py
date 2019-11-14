@@ -22,6 +22,7 @@ def generate_training_data():
             img_px = np.array(image)
             img_bin = img2bin(img_px)
             img_bin_data_array = np.append(img_bin_data_array,img_bin,axis=0) #TODO make new row instead of appending on the same one
+     return img_bin_data_array
 
 def generate_output_data():
     #TODO 
